@@ -22,11 +22,13 @@ class vecto
 		void ghitep();
 		float operator*(vecto b);
 		friend vecto operator*(vecto,matran);
-		/*Doi ma tran sang vecto
-		chi co the doi duoc ma tran 1n sang vecto
-		Chu y: Dinh nghia ham vecto(matran) ben duoi class matran\
-			   Phai co them ham khoi tao vecto()
-			   Trong class matran phai co "friend vecto::vecto(matran);"
+		/*Đổi ma trận sang vector
+		Chỉ ma trận 1xn mới có thể đổi sang dạng vecto
+		
+		Hàm vecto(matran) ngay dưới Class matran
+		Để không bị lỗi:
+		Phải có hàm vecto() trong class vecto
+		Trong Class matran cần có "friend vecto::vecto(matran);"
 		*/
 		vecto(matran);
 		int get_n(){return n;}
