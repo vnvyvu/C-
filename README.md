@@ -1,2 +1,2 @@
 # C++
-C++ Thầy Hiền
+Lập trình Cpp - Thầy Hiền
